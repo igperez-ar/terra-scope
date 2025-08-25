@@ -5,18 +5,20 @@
 	import maplibregl from 'maplibre-gl';
 	import bbox from '@turf/bbox';
 	import { mapStore, rasterLayerActions } from '../../core/stores';
-	import { rasterService } from '../../core/services';
+	import { rasterService, stacMapService } from '../../core/services';
 
 	export let className = '';
 
 	onMount(() => {
 		const map = new maplibregl.Map({
 			container: 'map',
-			style: 'https://demotiles.maplibre.org/style.json'
+			style: 'https://demotiles.maplibre.org/style.json',
+			attributionControl: false
 		});
 
 		mapStore.set(map);
 		rasterService.setMap(map);
+		stacMapService.setMap(map);
 
 		rasterLayerActions.initializeLayers(rasterLayers);
 
