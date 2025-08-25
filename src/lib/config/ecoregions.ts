@@ -1,0 +1,17 @@
+export const layers = [
+	{ id: 1, name: 'Mountain Region', color: '#e41a1c' },
+	{ id: 2, name: 'Mountain Region (E. Islands)', color: '#377eb8' },
+	{ id: 3, name: 'Ecotone', color: '#4daf4a' },
+	{ id: 4, name: 'Steppe', color: '#984ea3' },
+	{ id: 5, name: 'Peatlands', color: '#ff7f00' },
+	{ id: 6, name: 'Antarctic Peninsula', color: '#ffff33' },
+	{ id: 7, name: 'Antarctica', color: '#a65628' },
+	{ id: 8, name: 'Beagle Channel & Islands', color: '#f781bf' },
+	{ id: 9, name: 'Malvinas Islands', color: '#999999' },
+	{ id: 10, name: 'Atlantic Coast (Malvinas Islands)', color: '#66c2a5' },
+	{ id: 11, name: 'Atlantic Ocean', color: '#fc8d62' },
+	{ id: 12, name: 'Southern Ocean', color: '#8da0cb' },
+	{ id: 13, name: 'Freshwater', color: '#e78ac3' },
+	{ id: 14, name: 'Beagle Coast', color: '#a6d854' },
+	{ id: 15, name: 'Atlantic Coast', color: '#ffd92f' },
+];
